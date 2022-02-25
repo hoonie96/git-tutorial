@@ -17,3 +17,6 @@ git push
 <-git merge
 1working directory
 (git pull = git fetch + git merge)
+
+to undo
+git reset "fileName"
