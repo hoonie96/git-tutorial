@@ -1,6 +1,19 @@
 create a remote repository from www.github.com
 find local repository and clone the url of remote repository [git clone "url"]
 create a file in local repostiory
-git add *
+git add .
 git commit -m "note"
 git push
+
+1working directory
+->git add
+2staging area
+->git commit
+3local repository
+->git push
+4remote repository
+<-git fetch
+3local repository
+<-git merge
+1working directory
+(git pull = git fetch + git merge)
