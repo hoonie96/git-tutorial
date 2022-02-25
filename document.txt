@@ -19,4 +19,8 @@ git push
 (git pull = git fetch + git merge)
 
 to undo
-git reset "fileName"
+git reset <file>
+
+to restore
+git checkout -- <file>
+git restore <file>
