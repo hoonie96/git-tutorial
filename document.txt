@@ -54,5 +54,11 @@ git checkout [branch-name]
 
 // Check remote repository branch-name
 git remote
-// push to remote repository[origin] from local repository[master[
+// push to remote repository[origin] from local repository[master]
 git push -u origin master
+
+// Discards all history and changes back to 
+the specified commit
+(--soft: back to the specified commit and remain all logs, --mixed)
+git reset --hard [commit]
+// Force push to remote repository
