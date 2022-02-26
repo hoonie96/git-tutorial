@@ -62,3 +62,4 @@ the specified commit
 (--soft: back to the specified commit and remain all logs, --mixed)
 git reset --hard [commit]
 // Force push to remote repository
+git push -f
