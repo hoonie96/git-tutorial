@@ -4,7 +4,7 @@ create a file in local repostiory
 // Initialise local git repository
 git init
 // Add files to index
-git add <file>
+git add [file]
 // Check status of working tree
 git status
 // Commit changes in index
@@ -17,8 +17,8 @@ git pull
 git clone
 
 // Git global setup
-git config --global user.name "name"
-git config --global user.email "email"
+git config --global user.name [name]
+git config --global user.email [email]
 
 // Process
 1working directory
@@ -35,10 +35,10 @@ git config --global user.email "email"
 (git pull = git fetch + git merge)
 
 // To undo
-git reset <file>
+git reset [file]
 // To restore
-git checkout -- <file>
-git restore <file>
+git checkout -- [file]
+git restore [file]
 // To rewrite commit message
 git commit --amend
 // To unstage
@@ -46,3 +46,13 @@ git rm --cached <file>
 
 // To not push files to remote repository
 add files in .gitignore
+
+// Create a branch
+git brach [branch-name]
+// Switch to branch-name
+git checkout [branch-name]
+
+// Check remote repository branch-name
+git remote
+// push to remote repository[origin] from local repository[master[
+git push -u origin master
