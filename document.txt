@@ -43,3 +43,6 @@ git restore <file>
 git commit --amend
 // To unstage
 git rm --cached <file>
+
+// To not push files to remote repository
+add files in .gitignore
