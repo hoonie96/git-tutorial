@@ -70,3 +70,15 @@ git branch [branch-name]
 git branch -d [branch-name]
 git branch [branch-name] -d
 
+// Check [remote repository-name]
+git remote
+// Check detail of [remote repository-name]
+git remote show [remote repository-name]
+// Add [remote repository-name] on [remote repository-url]
+git remote add [remote repository-name] [remote repository-url]
+// Show all remote repositories
+git remote -v
+// Rename [remote repository]
+git remote rename [old-name] [new-name]
+// Remove [remote repository-name]
+git rm [remote repository-name]
