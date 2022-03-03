@@ -82,3 +82,14 @@ git remote -v
 git remote rename [old-name] [new-name]
 // Remove [remote repository-name]
 git remote rm [remote repository-name]
+
+// Generate a diffstat
+git log --stat
+// Draw a text-based graphical representation of the commit history
+git log --graph
+// Limits the number of commits to show to 3
+git log -p -3
+// Print commit log in one line
+git log --pretty=oneline
+// Print commit log of given format - "[hash] -> [athor name], [author date, relatve] : [commit message]" in form of graph
+git log --pretty=format:"%h -> %an, %ar : %s" --graph
