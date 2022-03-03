@@ -81,4 +81,4 @@ git remote -v
 // Rename [remote repository]
 git remote rename [old-name] [new-name]
 // Remove [remote repository-name]
-git rm [remote repository-name]
+git remote rm [remote repository-name]
