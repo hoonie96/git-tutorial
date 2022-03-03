@@ -63,3 +63,10 @@ the specified commit
 git reset --hard [commit]
 // Force push to remote repository
 git push -f
+
+// Merge branches (merge [branch-name] into current branch)
+git branch [branch-name]
+// Delete a branch
+git branch -d [branch-name]
+git branch [branch-name] -d
+
